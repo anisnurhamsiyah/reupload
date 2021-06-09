@@ -1,0 +1,16 @@
+h1	{
+	font-size: 100px;
+	color: purple;
+}
+
+p  {
+	text-align: justify;
+	text-transform: capitalize;
+	letter-spacing: 10px;
+}
+
+h5 {
+	text-indent: 100px;
+	text-decoration: line-through;
+	word-spacing: 10px
+}

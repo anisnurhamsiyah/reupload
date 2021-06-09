@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Specificity CSS</title>
+	<link rel="stylesheet" href="style8.css">
+	<style>
+		body {
+			background-image:url(gb5.png);
+			background-size: cover;
+		}
+	</style>
+</head>
+<body>
+		<a href="cssdasar.html"><img src="close.png" width="40" align="right"></a>
+	<h1>Specificity</h1>
+	<p>Specificity adalah setiap deklarasi css (selector) memiliki berat yang berbeda. Berat tersebut menentukan seberapa spesifik sebuah elemen dapat dipilih oleh selector. Contoh perhitungannya:</p>
+	<table border="2" cellspacing="0" cellpadding="5">
+		<tr bgcolor="lightblue" align="center">
+			<td>Contoh</td>
+			<td>Inline</td>
+			<td>Id</td>
+			<td>Class</td>
+			<td>Elemen</td>
+		</tr>
+		<tr align="center">
+			<td>ul#sarapan li</td>
+			<td>0</td>
+			<td>1</td>
+			<td>0</td>
+			<td>2</td>
+		</tr>
+		<tr align="center">
+			<td>ul#sarapan li.favorit</td>
+			<td>0</td>
+			<td>1</td>
+			<td>1</td>
+			<td>2</td>
+		</tr>
+	</table>
+
+	<h3>Menu sarapan:</h3>
+	<ul id="sarapan">
+		<li class="favorit">Nasi Goreng</li>
+		<li>Bubur Ayam</li>
+		<li>Mie Goreng</li>
+		<li>Gorengan</li>
+	</ul>
+
+</body>
+</html>
